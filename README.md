@@ -1,8 +1,12 @@
-# SQL Week 2 – Fundamentals
+# SQL Week 2 – Fundamentals (MySQL)
 
-This repository documents my SQL learning journey using MySQL.
+This repository documents my structured SQL learning using MySQL.
 
-## Day 1 Topics
+---
+
+## 📚 Topics Covered
+
+### Day 1 – Basic SQL
 - CREATE DATABASE
 - CREATE TABLE
 - INSERT
@@ -12,4 +16,14 @@ This repository documents my SQL learning journey using MySQL.
 - COUNT
 - AVG
 
-Each .sql file represents a daily structured practice.
+### Day 2 – Aggregates & GROUP BY
+- COUNT, SUM, AVG, MIN, MAX
+- GROUP BY
+- HAVING
+- Category-based analysis using the department column
+
+---
+
+## 🎯 Learning Objective
+
+Build strong SQL fundamentals, including grouping, filtering, and aggregation logic to prepare for JOINs and advanced queries.
