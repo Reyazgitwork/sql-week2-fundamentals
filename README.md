@@ -6,6 +6,24 @@ The progression moves from foundational querying to relational analysis, subquer
 
 ---
 
+
+## 🟣 Featured Project
+
+👉 **Mini E-commerce SQL Analysis Project**
+
+A structured multi-table relational database project demonstrating:
+
+- INNER JOIN & LEFT JOIN
+- GROUP BY & HAVING
+- Subqueries
+- CTE (WITH clause)
+- Window Functions (DENSE_RANK)
+- Business-driven revenue analysis
+
+🔗 View full project here: [Mini Project Folder](mini_project/)
+
+
+
 ## 🎯 Objective
 
 To develop strong SQL fundamentals and apply them to real-world business scenarios, including:
