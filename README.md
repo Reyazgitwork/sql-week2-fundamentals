@@ -117,16 +117,44 @@ Created a small relational database with:
 ---
 
 # 📂 Repository Structure
+
 sql-week2-fundamentals
+
+
 │
+
+
+
 ├── day1_basics.sql
+
+
 ├── day2_groupby.sql
+
+
+
 ├── day3_joins.sql
+
+
+
+
 ├── day4_subqueries.sql
+
+
+
 ├── day5_cte.sql
+
+
+
 ├── day6_window_functions.sql
+
+
+
 ├── mini_project_ecommerce.sql
+
+
+
 └── README.md
+
 
 Each SQL file contains commented queries explaining the logic used.
 
