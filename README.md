@@ -1,15 +1,19 @@
 # 🗄 SQL Data Analysis Portfolio – MySQL 8.0
 
-This repository showcases my structured SQL learning and hands-on practice using **MySQL 8.0**, focused on building job-ready data analysis skills.
+## 👋 About Me
 
-The progression moves from foundational querying to relational analysis, subqueries, CTEs, and window functions, culminating in a structured mini project.
+Aspiring Data Analyst with a strong focus on SQL and relational data analysis.  
+I build structured, reproducible SQL projects that transform raw relational data into clear business insights.
+
+This repository documents my hands-on SQL journey using **MySQL 8.0**, progressing from foundational querying to advanced relational analysis, subqueries, CTEs, and window functions — culminating in a structured mini project.
+
+My goal is to develop job-ready SQL skills and demonstrate analytical thinking through real-world problem solving.
 
 ---
 
-
 ## 🎯 Objective
 
-To develop strong SQL fundamentals and apply them to real-world business scenarios, including:
+To develop strong SQL fundamentals and apply them to practical business scenarios, including:
 
 - Data filtering and sorting
 - Aggregation and grouped reporting
@@ -23,7 +27,7 @@ To develop strong SQL fundamentals and apply them to real-world business scenari
 
 ## 🟣 Featured Project
 
-👉 **Mini E-commerce SQL Analysis Project**
+### 👉 Mini E-commerce SQL Analysis Project
 
 A structured multi-table relational database project demonstrating:
 
@@ -34,10 +38,12 @@ A structured multi-table relational database project demonstrating:
 - Window Functions (DENSE_RANK)
 - Business-driven revenue analysis
 
-🔗 View full project here: [Mini Project Folder](mini_project/)
+🔗 View full project here:  
+**/mini_project/**
 
+---
 
-# 📚 Skills Demonstrated
+## 📚 Skills Demonstrated
 
 - SELECT, WHERE, ORDER BY
 - Aggregate functions (COUNT, SUM, AVG, MIN, MAX)
@@ -50,18 +56,19 @@ A structured multi-table relational database project demonstrating:
 
 ---
 
-# 📅 Structured Practice
+# 📅 Structured Learning Progress
 
 ## 🟢 Day 1 – SQL Basics
 - Database & table creation
 - Data insertion
 - Filtering and sorting
-- Basic aggregates
+- Basic aggregate functions
 
 ## 🟢 Day 2 – Aggregation & Grouping
 - GROUP BY logic
 - HAVING clause
 - Multi-column ordering
+- Continent-based and department-based analysis
 
 ## 🟢 Day 3 – JOIN Operations
 - INNER JOIN
@@ -77,7 +84,8 @@ A structured multi-table relational database project demonstrating:
 
 ## 🟢 Day 5 – CTE (WITH Clause)
 - Modular query structuring
-- Improved readability vs nested subqueries
+- Improved readability over nested subqueries
+- Analytical query decomposition
 
 ## 🟢 Day 6 – Window Functions
 - ROW_NUMBER()
@@ -89,15 +97,16 @@ A structured multi-table relational database project demonstrating:
 
 # 🟣 Mini Project – E-commerce SQL Analysis
 
-### 🏗 Database Design
-Created a small relational database with:
+## 🏗 Database Design
 
-- `customers`
-- `products`
-- `orders`
-- `order_items`
+Created a relational database with:
 
-### 📊 Business Questions Answered
+- customers
+- products
+- orders
+- order_items
+
+## 📊 Business Questions Answered
 
 - What is the total revenue?
 - Which products generate the highest revenue?
@@ -106,13 +115,13 @@ Created a small relational database with:
 - Which customers spend above average?
 - How do products rank by revenue?
 
-### 🔎 Key Insights
+## 🔎 Key Insights
 
 - Total Revenue: **$11,120**
-- Revenue concentration in high-priced electronics.
+- Revenue is concentrated in high-priced electronics.
 - Laptop and Phone tied for top revenue rank.
 - January 2024 recorded the highest monthly revenue.
-- Revenue distribution shows multiple strong product contributors.
+- Revenue distribution indicates multiple strong product contributors.
 
 ---
 
@@ -131,29 +140,33 @@ sql-week2-fundamentals
 ├── day2_groupby.sql
 
 
-
 ├── day3_joins.sql
-
-
 
 
 ├── day4_subqueries.sql
 
 
-
 ├── day5_cte.sql
-
 
 
 ├── day6_window_functions.sql
 
 
+├── mini_project/
 
-├── mini_project_ecommerce.sql
 
+│ ├── mini_project_ecommerce.sql
+
+
+│ ├── screenshots/
+
+
+│ └── README.md
 
 
 └── README.md
+
+
 
 
 Each SQL file contains commented queries explaining the logic used.
@@ -180,13 +193,10 @@ I can confidently explain:
 - Correlated subqueries
 - Indexing fundamentals
 - Larger multi-table analytical projects
+- Integration with BI tools (Power BI)
 
 ---
 
 ## 📌 Goal
 
 To build strong SQL proficiency through structured, real-world analysis projects and continuous problem-solving practice.
-
-Each SQL file contains commented queries explaining the logic used.
-
-
