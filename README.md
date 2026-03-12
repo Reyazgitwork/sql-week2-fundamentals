@@ -1,138 +1,139 @@
-# 🧠 SQL Portfolio – Week 2 (MySQL Fundamentals)
+ # 🗄 SQL Fundamentals – Week 2 (MySQL 8.0)
 
-This repository documents my structured SQL learning journey using **MySQL**, focused on building strong fundamentals required for Data Analyst roles.
+This repository documents my structured SQL learning journey using **MySQL 8.0**, focused on building strong relational querying and analytical skills required for Data Analyst roles.
 
-I practiced core SQL concepts through **hands-on queries**, real interview-style problems, and progressively more complex logic (joins + subqueries).
-
----
-
-## 👤 About Me
-I’m building job-ready **Data Analyst skills** step-by-step through structured weekly projects.  
-This SQL portfolio shows my ability to query, filter, aggregate, join, and analyze data using MySQL.
+Throughout this week, I progressed from basic SQL querying to advanced concepts such as subqueries, CTEs, and window functions.
 
 ---
 
-## 🎯 Week 2 Learning Goals
-By the end of this week, I aim to confidently write queries using:
+## 🎯 Learning Objectives
 
-- SELECT, WHERE, ORDER BY  
-- Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)  
-- GROUP BY and HAVING  
-- JOINS (INNER, LEFT)  
-- Subqueries (IN, EXISTS, correlated/nested style)
-
----
-
-## 🛠 Skills Demonstrated
-✅ Database & table creation  
-✅ Data insertion + filtering  
-✅ Sorting + string-based ordering  
-✅ Aggregation + grouped reporting  
-✅ Join logic between multiple tables  
-✅ Subqueries for advanced filtering and comparisons  
-✅ SQL problem-solving (HackerRank style)
+- Understand relational database structure
+- Write structured SELECT queries
+- Use WHERE and ORDER BY effectively
+- Apply aggregate functions with GROUP BY
+- Perform multi-table JOIN operations
+- Use subqueries for analytical filtering
+- Implement CTE (WITH clause)
+- Apply window functions (ROW_NUMBER, RANK, DENSE_RANK)
 
 ---
 
-# ✅ Daily Progress
+## 🛠 Core SQL Skills Demonstrated
 
-## 🟢 Day 1 — SQL Basics
-### Objective
-Learn core SQL structure and query execution.
+- Database & table creation
+- Data insertion and filtering
+- Sorting and conditional logic
+- Aggregate functions (COUNT, SUM, AVG, MIN, MAX)
+- GROUP BY & HAVING logic
+- INNER JOIN & LEFT JOIN
+- Subqueries (IN, nested aggregation)
+- CTE (Common Table Expressions)
+- Window functions for ranking & analysis
+- Handling MySQL-specific query behavior
 
-### Topics Practiced
+---
+
+# 📅 Weekly Progress
+
+---
+
+## 🟢 Day 1 – SQL Basics
 - CREATE DATABASE / USE
 - CREATE TABLE
-- INSERT INTO
-- SELECT *
-- WHERE filters
-- ORDER BY sorting
-- AVG, COUNT basics
-
-📌 Example:
-- Students scoring above a certain mark threshold  
-- Average marks calculation
+- INSERT
+- SELECT
+- WHERE
+- ORDER BY
+- Basic aggregates
 
 ---
 
-## 🟢 Day 2 — Aggregates + GROUP BY
-### Objective
-Summarize data and generate grouped insights.
-
-### Topics Practiced
+## 🟢 Day 2 – Aggregates & GROUP BY
 - COUNT, SUM, AVG, MIN, MAX
 - GROUP BY
 - HAVING vs WHERE
-
-📌 Example:
-- Department-based employee statistics  
-- Finding categories with the highest totals  
-- Filtering groups using HAVING
+- Multi-column sorting
 
 ---
 
-## 🟢 Day 3 — JOINS (INNER + LEFT)
-### Objective
-Learn relational logic between tables.
+## 🟢 Day 3 – JOIN Operations
+- INNER JOIN
+- LEFT JOIN
+- Multi-table relationships
+- Aggregation after JOIN
 
-### Topics Practiced
-- INNER JOIN (matching rows only)
-- LEFT JOIN (all rows from left table)
-- Filtering joined data
-
-📌 Example Problems
-- Cities and countries by continent  
-- Total population of Asian cities  
-- List African cities with their country info
+Example practice:
+- Cities by continent
+- Total population by region
+- Revenue per customer
 
 ---
 
-## 🟢 Day 4 — Subqueries (Interview Style)
-### Objective
-Use subqueries to solve advanced filtering problems.
-
-### Topics Practiced
-- IN + nested subqueries
-- Subquery with aggregate comparison (AVG)
-- GROUP BY + HAVING with subquery
-- MySQL subquery restrictions & fixes (LIMIT workaround)
-
-📌 Example Problems
-- Students scoring above the class average  
-- Customers who placed orders (IN subquery)
-- Customers with a total order amount above average  
-- Top 3 marks students (MySQL LIMIT workaround using nested select)
+## 🟢 Day 4 – Subqueries
+- Subqueries in WHERE
+- Subqueries with IN
+- Nested subqueries using AVG / MAX
+- Filtering using computed results
+- MySQL LIMIT workaround using derived tables
 
 ---
 
-## 📌 Key Takeaways (What I Learned)
-- WHERE filters rows, HAVING filters groups  
-- INNER JOIN returns matching rows only  
-- LEFT JOIN keeps all left table rows  
-- Subqueries help compare values against computed results like AVG()  
-- MySQL needs a nested query when using LIMIT inside an IN subquery
+## 🟢 Day 5 – CTE (WITH Clause)
+- Writing modular queries
+- Replacing nested subqueries with CTE
+- Improving query readability
+- Aggregated analysis using CTE structure
 
 ---
 
-## 🎤 Interview Talking Points
+## 🟢 Day 6 – Window Functions
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- Ranking records within ordered datasets
+- Analytical reporting queries
+
+---
+## 📂 Repository Structure
+sql-week2-fundamentals
+│
+├── day1_basics.sql
+├── day2_groupby.sql
+├── day3_joins.sql
+├── day4_subqueries.sql
+├── day5_cte.sql
+├── day6_window_functions.sql
+└── README.md
+
+
+Each file contains structured daily practice with comments explaining the logic.
+
+---
+
+## 🎤 Interview-Ready Topics
+
 I can confidently explain:
 
-- Difference between WHERE and HAVING  
-- Why LEFT JOIN returns all records from the left table  
-- How GROUP BY aggregation works  
-- How subqueries compare results against AVG / SUM  
-- MySQL LIMIT restriction and the correct workaround  
-- How SQL supports business decision-making through grouped insights
+- Difference between WHERE and HAVING
+- INNER JOIN vs LEFT JOIN
+- GROUP BY aggregation logic
+- How subqueries execute
+- Benefits of CTE over nested subqueries
+- Differences between ROW_NUMBER, RANK, and DENSE_RANK
+- How SQL supports business data analysis
 
 ---
 
-## 🚀 Next Steps (Week 2 Remaining)
-- Practice more subqueries (EXISTS + correlated)
-- Learn CTEs (WITH clause)
-- Solve 20–30 real SQL questions (HackerRank / LeetCode)
-- Start Mini Project using a realistic dataset
+## 🚀 Next Steps
+
+- Build a multi-table mini SQL project
+- Practice correlated subqueries
+- Solve 20–30 SQL interview-style problems
+- Continue improving query optimization skills
 
 ---
 
 ## 📌 Goal
-To become job-ready in SQL by consistently practicing real interview-style questions and building a strong GitHub portfolio.
+
+To develop job-ready SQL skills through structured practice, real-world problem solving, and consistent GitHub documentation.
