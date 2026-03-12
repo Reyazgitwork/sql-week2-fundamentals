@@ -7,6 +7,20 @@ The progression moves from foundational querying to relational analysis, subquer
 ---
 
 
+## 🎯 Objective
+
+To develop strong SQL fundamentals and apply them to real-world business scenarios, including:
+
+- Data filtering and sorting
+- Aggregation and grouped reporting
+- Multi-table JOIN analysis
+- Subquery logic
+- CTE-based query structuring
+- Window function ranking
+- Business insight generation
+
+---
+
 ## 🟣 Featured Project
 
 👉 **Mini E-commerce SQL Analysis Project**
@@ -22,21 +36,6 @@ A structured multi-table relational database project demonstrating:
 
 🔗 View full project here: [Mini Project Folder](mini_project/)
 
-
-
-## 🎯 Objective
-
-To develop strong SQL fundamentals and apply them to real-world business scenarios, including:
-
-- Data filtering and sorting
-- Aggregation and grouped reporting
-- Multi-table JOIN analysis
-- Subquery logic
-- CTE-based query structuring
-- Window function ranking
-- Business insight generation
-
----
 
 # 📚 Skills Demonstrated
 
