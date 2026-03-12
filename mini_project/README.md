@@ -2,8 +2,15 @@
 
 
 -- E-commerce SQL Analysis Mini Project
+
+
 -- Author: Reyaz
+
+
 -- MySQL Version: 8.0
+
+
+
 -- Concepts: JOIN, GROUP BY, Subqueries, CTE, Window Functions
 
 
